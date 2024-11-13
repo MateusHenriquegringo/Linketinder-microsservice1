@@ -56,4 +56,8 @@ class Candidato {
         @Column(name = "competences")
         @Enumerated(EnumType.STRING)
         private Set<CompetenciaENUM> competences
+
+        void setId(UUID id) {
+                this.id = id
+        }
 }

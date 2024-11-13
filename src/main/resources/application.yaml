@@ -5,7 +5,7 @@ spring:
     password: gringo
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
   docker:

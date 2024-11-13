@@ -39,4 +39,7 @@ class Empresa {
         @Column(name = "password")
         private String password
 
-    }
+        void setId(UUID id) {
+                this.id = id
+        }
+}
